@@ -1,0 +1,308 @@
+a{
+	text-decoration: none;
+}
+.full-wraper{
+		 	width: 100%;
+		 	clear: both;
+
+
+		 }
+		 .wraper{
+		 	width: 1300px;
+		 	margin: 0 auto;
+
+		 }
+		 body{
+		 	font-family: 'Roboto', sans-serif;
+		 
+		 }
+		 .heding{
+		 	width:1334;
+		 	height: 100;
+		 	background: blue;
+
+		 }
+
+		 .logo img{
+		 	width: 80px;
+		 	padding:10px 0;
+		 	float: left;
+
+		 }
+		 .manu{
+		 	
+		 	float: left;
+		 	width: 950px;
+		 	text-align: center;
+		 	margin-top: 20px;
+		 }
+		 .manu a{
+
+		 	color: #000;
+		 	padding: 10px;
+		 	font-size: 24px;
+		 }
+		 .reg{
+		 	width: 200px;
+		 	float:right ;
+		 	margin-top: 15px;
+		 	text-align: right;
+
+		 }
+		 .reg a{
+		 	color: black;
+		 	padding: 10px;
+		 	font-size: 24px;
+
+		 }
+
+		 .banner-img{
+		 	background-image:url(img/02.jpg); 
+		 	background-position: center;
+		 	background-size: cover;
+		 	background-repeat: no-repeat;
+		 	padding: 250px 0;
+		 }
+		 .banner-taxt{
+		 	text-align: center;
+
+		 }
+		 .banner-taxt h1{
+		 	color: white;
+		 	font-size: 60px;
+
+		 }
+		 .banner-taxt p{
+		 	color: white;
+		 	font-size: 40px;
+
+		 }
+		 .about h1{
+		 	color: black;
+		 	padding: 50px 0;
+		 }
+		 .about-left{
+		 	float: left;
+		 	width: 50%;
+		 }
+		 .about-left img{
+		 	width: 90%;
+		 	height: 90%;
+		 }
+		 .about-right{
+		 	position: relative;
+		 	float: right;
+		 	width: 50%;
+		 }
+		 .about-right p{
+		 	width: 100%;
+		 	line-height: 26px;
+		 	margin-top: 20px;
+		 }
+		 .about-right a{
+		 	position: absolute;
+		 	border-radius: 20px;
+		 	top: 250;
+		 	right: 510;
+		 	color: #444;
+		 	border: 1px solid #444;
+		 	padding: 10px;
+		 	transform: .4s;
+
+		 }
+		 .about-right a:hover{
+		 	background: blue;
+		 	color: black;
+		 }
+		 .service h1{
+		 	color: black;
+		 	padding: 50px 0;
+
+		 }
+		 .service-item{
+		 	width: 410px;
+		 	float: left;
+		 	text-align: center;
+		 	margin-top: 35px;
+		 	padding: 30px 0;
+		 	border: 2px solid #777;
+		 	margin-left: 10px;
+
+		 }
+		 .service-item h1{
+		 	color: red;
+		 }
+		 service-item p{
+		 	display: inline-block;
+		 }
+
+
+		 .main-div{
+		 	background-image: url(img/04.jpg);
+		 	background-size: cover;
+		 	background-position: center;
+		 	background-repeat: no-repeat;
+		 	padding: 150px;
+		 }
+		 .main-div-In{
+		 	background-image: url(img/04.jpg);
+		 	background-size: cover;
+		 	background-position: center;
+		 	background-repeat: no-repeat;
+		 	padding: 220px;
+		 }
+		 .tabel{
+		 	margin: 0 auto;
+		 	color: #fff;
+		 }
+		 h1{
+		 	color: #fff;
+		 	text-align: center;
+		 }
+		 .tabel tr td{
+		 	padding: 20px o;
+		 	font-size: 18px;
+		 	font-weight: 600px;
+		 }
+		 .tabel tr td input{
+
+		 	color: #fff;
+		 	background: transparent;
+		 	border: none;
+		 	border-bottom: 3px solid #777;
+		 	padding: 15px;
+		 }
+		  .tabel tr td button{
+		  	height: 35px;
+		  	background: transparent;
+		  	width: 85px;
+		  	border: none;
+		  	font-weight: 500px;
+		  	color: #fff;
+		  	transition: .4;
+		  	font-size: 15px;
+		  }
+		  .tabel tr td button:hover{
+		  	background: #fff;
+		  	color: black;
+		  }
+
+
+		  .position-mai{
+		  	height: 600px;
+		  	width: 800px;
+		  	background: #777;
+		  	margin: 0 auto;
+		  	margin-top: 50PX;
+		  	position: relative;
+		  }
+		  .one{
+		  	position: absolute;
+		  	left: 10px;
+		  	top: 10px;
+		  	float: left;
+		  	width:200px ;
+		  	height: 200ox;
+		  	background: red;
+		  	padding: 10px;
+		  }
+
+		  .two{
+		  	position: absolute;
+		  	right: 10px;
+		  	top: 10px;
+		  	float:left ;
+		  	width:200px ;
+		  	height: 200ox;
+		  	background: black;
+		  	color: #fff;
+		  	padding: 10px;
+		  }
+		  .three{
+		  	position: absolute;
+		  	right: 10px;
+		  	bottom: 10px;
+		  	float: left;
+		  	width:200px ;
+		  	height: 200ox;
+		  	background: yellow;
+		  	padding: 10px;
+		  }
+		  .four{
+		  	position: absolute;
+		  	left: 10px;
+		  	bottom: 10px;
+		  	float: left;
+		  	width:200px ;
+		  	height: 200ox;
+		  	background: blue;
+		  	color: #fff;
+		  	padding: 10px;
+
+		  }
+		  .flag{
+		  	position: absolute;
+		  	left: 50%;
+		  	top: 50%;
+		  	transform: translate(-50%, -50%);
+		  	float: left;
+		  	width: 200px;
+		  	height: 200px;
+		  	background: green;
+		  	color: #fff;
+		  	padding: 10px;
+
+		  }
+		  .mid-col{
+		  	position:relative;
+		  	left: 50%;
+		  	top: 50%;
+		  	transform: translate(-50%, -50%);
+		  	height: 80px;
+		  	width: 80px;
+		  	background: red;
+		  	border-radius: 70%;
+
+
+		  }
+		  .banner{
+		  	margin-top: 50px;
+		  	background: url(img/02.jpg);
+		  	background-position: center;
+		  	background-size: cover;
+		  	background-repeat: no-repeat;
+		  	padding: 200px 0;
+		  	position: relative;
+		  }
+		  .banner .af-bf{
+		  	position: absolute;
+		  	content: '';
+		  	height: 100%;
+		  	width: 100%;
+		  	background:rgba(0, 0, 0, 0.8);
+		  	top: 0;
+		  	left: 0;
+		  }
+		   .banner .af-bf p{
+		   	color: #fff;
+		   	text-align: center;
+		   	padding: 200px;
+		   	line-height: 26px;
+
+		   }
+		   .map h1{
+		   color: black;
+		 	padding: 50px 0;
+		 	
+
+		   }
+		   .banner-img1{
+		   	margin-top: 50px;
+		   	background-image:url(img/05.jpg); 
+		 	background-position: center;
+		 	background-size: cover;
+		 	background-repeat: no-repeat;
+		 	padding: 150px 0;
+		   }
+		   
+		 
